@@ -31,3 +31,10 @@ Os valores devem ser exibidos no formato **R$ xxx.xx**.
 **Exemplo**:
 
 - `1500.45` = **R$ 1500,45**
+
+## Atualizações no Código
+
+- **Validação de CPF**: Foi implementada uma função que verifica se o CPF informado é válido, utilizando o cálculo de verificação padrão do CPF.
+- **Entrada de CPF**: O sistema agora aceita CPF com caracteres como `.` e `-`, removendo-os antes de validar e armazenar.
+- **Data e Hora**: A data e hora dos depósitos e saques agora são exibidas no formato `dd/mm/aaaa hh:mm:ss`.
+- **Melhoria na Estrutura do Código**: A estrutura foi otimizada com funções específicas para cada operação, tornando o código mais legível e modular.
